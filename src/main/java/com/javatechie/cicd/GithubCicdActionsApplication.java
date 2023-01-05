@@ -11,7 +11,7 @@ public class GithubCicdActionsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Welcome to Tech Talk !";
+		return "Welcome to Tech Talk again !";
 	}
 
 	public static void main(String[] args) {
