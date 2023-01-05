@@ -12,6 +12,8 @@ public class GithubCicdActionsApplication {
 	@GetMapping("/welcome")
 	public String welcome(){
 		String abc = "crwwr";
+		String abc2 = "crwwr";
+		String ab33= "crwwr";
 		Integer x = 10;
 		return "Welcome to Tech Talk !";
 	}
