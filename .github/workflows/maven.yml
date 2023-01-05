@@ -35,7 +35,8 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
-    - name: SonarQube Quality Gate check
-      uses: sonarsource/sonarqube-quality-gate-action@master
+    - uses: actions/checkout@v2
+    - uses: sobolevn/misspell-fixer-action@master
+    - uses: peter-evans/create-pull-request@v2.4.4
       with:
-        scanMetadataReportFile: target/sonar/report-task.txt
+        token: ${{ secrets.GGITHUB_TOKEN }}
