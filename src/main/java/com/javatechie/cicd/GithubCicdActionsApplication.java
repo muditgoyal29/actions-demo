@@ -13,7 +13,6 @@ public class GithubCicdActionsApplication {
 	public String welcome(){
 		String abc = "crwwr";
 		Integer x = 10;
-		Boolean a = fa;
 		return "Welcome to Tech Talk again !";
 	}
 
