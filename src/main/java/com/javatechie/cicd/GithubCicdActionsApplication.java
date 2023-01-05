@@ -12,9 +12,10 @@ public class GithubCicdActionsApplication {
 	@GetMapping("/welcome")
 	public String welcome(){
 		String abc = "crwwr";
+		String abc2 = "crwwr";
+		String ab33= "crwwr";
 		Integer x = 10;
-		Boolean a = fa;
-		return "Welcome to Tech Talk again !";
+		return "Welcome to Tech Talk !";
 	}
 
 	public static void main(String[] args) {
